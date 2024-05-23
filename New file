@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1em 0;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2em 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: #fff;
+        }
+        .profile-img {
+            max-width: 150px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 50%;
+        }
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to John Doe's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <img src="profile.jpg" alt="John Doe" class="profile-img">
+            <p>Hello! I'm John Doe, a software developer based in San Francisco, CA. I have a passion for creating innovative software solutions and a knack for problem-solving. When I'm not coding, I enjoy hiking, photography, and exploring new technologies.</p>
+        </section>
+        <section id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <p>Here are a few of my recent projects:</p>
+            <ul>
+                <li><strong>Project A:</strong> A web application that helps users track their fitness goals.</li>
+                <li><strong>Project B:</strong> An e-commerce site for handmade crafts.</li>
+                <li><strong>Project C:</strong> A mobile app for managing personal finances.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>If you'd like to get in touch, please email me at johndoe@example.com or follow me on social media:</p>
+            <ul>
+                <li><a href="https://twitter.com/johndoe" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/johndoe" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
